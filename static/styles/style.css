@@ -28,18 +28,27 @@ input, button {
     body {
         padding: 1.5rem;
         font-size: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
 
     input, button {
         font-size: 1.6rem;
         padding: 0.9rem 1.2rem;
     }
+
 }
 
 @media (max-width: 480px) {
     body {
         padding: 1rem;
         font-size: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
 
     input, button {
