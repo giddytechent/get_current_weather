@@ -40,14 +40,23 @@ input, button {
     }
 
     form {
-        width: auto;
-        max-width: 700px;
-        width: 768px;
+        width: 750px;
     }
 
-    h1 {
-        font-size: 2.5rem;
+    input {
+        max-width: 65% ;
+        font-size: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
     }
+
+    button {
+        max-width: 25% ;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
 
 }
 
@@ -69,12 +78,24 @@ input, button {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     form {
-        width: auto;
-        max-width: 400px;
-        width: 480px;
+        width: 450px;
+    }
+
+    input {
+        max-width: 65% ;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+
+    button {
+        max-width: 25% ;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 5px;
     }
 }   
