@@ -6,7 +6,7 @@
 
 body {
     padding: 2rem;
-    background-color: #362a2a;
+    background-color: rgb(23, 32, 110);
     color: whitesmoke;
     min-height: 100vh;
     display: flex;
@@ -14,14 +14,6 @@ body {
     align-items: center;
     gap: 2rem;
     font-size: 2rem;
-}
-
-form {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    place-content: center;
-
 }
 
 input, button {
@@ -35,7 +27,7 @@ input, button {
 @media (max-width: 768px) {
     body {
         max-width: 700px;
-        width: 600px;
+        width: 768px;
         padding: 2rem;
         background-color: rgb(23, 32, 110);
         color: whitesmoke;
@@ -52,16 +44,16 @@ input, button {
 @media (max-width: 480px) {
     body {
         max-width: 400px;
-        width: 300px;
-        padding: 2rem;
+        width: 480px;
+        padding: 1rem;
         background-color: rgb(23, 32, 110);
         color: whitesmoke;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
-        font-size: 2rem;
+        gap: 1rem;
+        font-size: 1rem;
 
     }
 }   
