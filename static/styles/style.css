@@ -37,6 +37,8 @@ input, button {
         align-items: center;
         gap: 2rem;
         font-size: 2rem;
+        padding-top: 20px;
+        margin-top: 20px;
     }
 
     form {
@@ -76,6 +78,8 @@ input, button {
         align-items: center;
         gap: 2rem;
         font-size: 2rem;
+        padding-top: 20px;
+        margin-top: 20px;
 
     }
 
