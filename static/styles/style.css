@@ -41,6 +41,9 @@ input, button {
 
     form {
         width: 750px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     input {
@@ -82,7 +85,9 @@ input, button {
 
     form {
         width: 450px;
-        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     input {
